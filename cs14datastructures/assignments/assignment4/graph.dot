@@ -1,0 +1,35 @@
+digraph G {
+
+rankdir="LR";
+
+Lodi [color = lightblue, style = filled, label = Lodi];
+Nile [color = red, style = filled, label = Nile];
+Mondavi [color = red, style = filled, label = Mondavi];
+Rivoli [color = red, style = filled, label = Rivoli];
+Pyramids [color = lightgreen, style = filled, label = Pyramids];
+Zurich [color = lightgreen, style = filled, label = Zurich];
+Marengo [color = lightgreen, style = filled, label = Marengo];
+Friedland [color = lightgreen, style = filled, label = Friedland];
+
+Nile->Rivoli;
+Marengo->Rivoli;
+Pyramids->Mondavi;
+Pyramids->Lodi;
+Friedland->Mondavi;
+Mondavi->Lodi;
+Lodi->Mondavi;
+Nile->Marengo;
+Mondavi->Nile;
+Lodi->Rivoli;
+Zurich->Nile;
+Rivoli->Nile;
+Mondavi->Zurich;
+Lodi->Pyramids;
+Pyramids->Marengo;
+Zurich->Pyramids;
+Zurich->Lodi;
+Friedland->Nile;
+Mondavi->Friedland;
+Friedland->Marengo;
+
+}

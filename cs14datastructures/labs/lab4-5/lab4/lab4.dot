@@ -1,0 +1,42 @@
+  /**
+ * Course: CS014 Summer 2018
+ *
+ * First Name: Diane
+ * Last Name: Shan
+ * Username: dshan017
+ * email address: dshan017@ucr.edu
+ *
+ *
+ * Assignment: lab4
+ * Filename : lab4.dot
+ *
+ * I hereby certify that the contents of this file represent
+ * my own original individual work. Nowhere herein is there 
+ * code from any outside resources such as another individual,
+ * a website, or publishings unless specifically designated as
+ * permissible by the instructor or TA.
+ */ 
+ digraph G {
+
+  // nodes
+  a [color = purple, peripheries=2, style = filled, label="key=6, h=3, d=0, in=5, pre=1, post=9"];
+  b [color = purple, peripheries=2, style = filled, label="key=3, h=2, d=1, in=3, pre=2, post=4"];
+  c [color = purple, peripheries=2, style = filled, label="key=9, h=2, d=1, in=8, pre=6, post=8"];
+  d [color = purple, peripheries=2, style = filled, label="key=1, h=1, d=2, in=1, pre=3, post=2"];
+  e [color = purple, peripheries=2, style = filled, label="key=4, h=0, d=2, in=4, pre=5, post=3"]; 
+  f [color = purple, peripheries=2, style = filled, label="key=7, h=1, d=2, in=6, pre=7, post=6"];
+  g [color = purple, peripheries=2, style = filled, label="key=10, h=0, d=2, in=9, pre=9, post=7"];
+  h [color = purple, peripheries=2, style = filled, label="key=2, h=0, d=3, in=2, pre=4, post=1"];
+  i [color = purple, peripheries=2, style = filled, label="key=8, h=0, d=3, in=7, pre=8, post=5"];
+
+
+  // edges	
+  a -> b; 
+  a -> c;
+  b -> d;
+  b -> e; 
+  c -> f;
+  c -> g;
+  d -> h;
+  f -> i;
+}
